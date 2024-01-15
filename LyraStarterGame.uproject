@@ -26,7 +26,14 @@
 		},
 		{
 			"Name": "AESGCMHandlerComponent",
-			"Enabled": true
+			"Enabled": true,
+			"TargetAllowList" : [
+				"Editor"
+			]
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": false
 		},
 		{
 			"Name": "DTLSHandlerComponent",
